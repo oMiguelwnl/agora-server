@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://agora-client-official.vercel.app",
+      "https://agora-client-azure.vercel.app",
       "http://localhost:3000",
     ],
     credentials: true,
